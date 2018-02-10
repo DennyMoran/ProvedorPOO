@@ -7,12 +7,9 @@ public class Proveedor {
          private String nombreProveedor;
          private String direcciónProveedor;
          private String teléfonoProveedor;
-         private String paginaWeb;
+         private String Web;
 
     
-   /* Metodos dentro de la clase Cliente*/
-    
-    /*Metodo Set...*/
          
     public void setIdProveedor(int idProveedor){
     this.idProveedor = idProveedor;    
@@ -30,8 +27,8 @@ public class Proveedor {
     this.teléfonoProveedor = teléfonoProveedor;    
     }
     
-    public void setPaginaWeb(String paginaWeb){
-    this.paginaWeb = paginaWeb;
+    public void setWeb(String Web){
+    this.Web = Web;
     }
     
     /* Metodo Get...*/
@@ -54,8 +51,8 @@ public class Proveedor {
      return teléfonoProveedor;
      }
          
-     public String getPaginaWeb(){
-     return paginaWeb;
+     public String getWeb(){
+     return Web;
     
     }    
 }

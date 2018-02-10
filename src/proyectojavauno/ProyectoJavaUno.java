@@ -10,49 +10,45 @@ public class ProyectoJavaUno {
       Proveedor prov2 = new Proveedor();
       Proveedor prov3 = new Proveedor();
       
-      prov1.setIdProveedor ('9');
-      prov1.setNombreProveedor("Julieta Andrea");
-      prov1.setDirecciónProveedor("Medium city #10, House");
-      prov1.setTeléfonoProveedor("456-889-6587");
-      prov1.setPaginaWeb("www.fb.com");
+      prov1.setIdProveedor ('5');
+      prov1.setNombreProveedor("Armando Estrella");
+      prov1.setDirecciónProveedor("Maximo Gomez #34");
+      prov1.setTeléfonoProveedor("809-654-4585");
+      prov1.setWeb("Prodacom.com.do");
       
       
-      prov2.setIdProveedor ('8');
-      prov2.setNombreProveedor("Bonsua Kity");
-      prov2.setDirecciónProveedor("Big city #6, House");
-      prov2.setTeléfonoProveedor("876-466-7669");
-      prov2.setPaginaWeb("www.xvideos.com");
+      prov2.setIdProveedor ('6');
+      prov2.setNombreProveedor("Acero Estrella");
+      prov2.setDirecciónProveedor("Av. Autopista Duarto #87");
+      prov2.setTeléfonoProveedor("809-200-1400");
+      prov2.setWeb("www.AceroEstrella.com");
       
       prov3.setIdProveedor ('7');
-      prov3.setNombreProveedor("Lovigg Ugg");
-      prov3.setDirecciónProveedor("Little city #20, House");
-      prov3.setTeléfonoProveedor("946-323-6548");
-      prov3.setPaginaWeb("www.avast.com");
+      prov3.setNombreProveedor("El Mundo Del Juguete");
+      prov3.setDirecciónProveedor("Av. Bartolome Colon");
+      prov3.setTeléfonoProveedor("809-221-2000");
+      prov3.setWeb("www.elmundodeljuguete.com");
       
       
         System.out.println(prov1.getIdProveedor());
         System.out.println(prov1.getNombreProveedor());
         System.out.println(prov1.getDirecciónProveedor());
         System.out.println(prov1.getTeléfonoProveedor());
-         System.out.println(prov1.getPaginaWeb());
+        System.out.println(prov1.getWeb());
       
         System.out.println(prov2.getIdProveedor());
         System.out.println(prov2.getNombreProveedor());
         System.out.println(prov2.getDirecciónProveedor());
         System.out.println(prov2.getTeléfonoProveedor());
-        System.out.println(prov2.getPaginaWeb());
+        System.out.println(prov2.getWeb());
               
         System.out.println(prov3.getIdProveedor());
         System.out.println(prov3.getNombreProveedor());
         System.out.println(prov3.getDirecciónProveedor());
         System.out.println(prov3.getTeléfonoProveedor());
-        System.out.println(prov3.getPaginaWeb());
+        System.out.println(prov3.getWeb());
       
 
-               
-               
-            
-   
     }
     
 }
